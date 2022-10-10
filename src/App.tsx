@@ -35,7 +35,7 @@ const App: Component = () => {
   return (
     <div class='w-full h-full bg-white dark:bg-dark text-black dark:text-white'>
       <main class='px-6 py-[8vh] max-w-[76ch] mx-auto xl:text-lg dark:prose-invert relative dark:text-white'>
-        <div class='absolute right-0 top-0 text-2xl mt-4 cursor-pointer text-coolgray'>
+        <div class='absolute right-4 top-0 text-2xl mt-4 cursor-pointer text-coolgray'>
           <div
             class={
               isDark() ? 'i-ri-sun-line text-white' : 'i-ri-moon-line text-dark'
