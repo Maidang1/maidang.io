@@ -6,21 +6,31 @@
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "gen-router": "node ./scripts/gen-router.js",
+    "gen-solid": "node ./scripts/gen-solid.js"
   },
   "license": "MIT",
   "devDependencies": {
     "@iconify-json/ri": "^1.1.3",
     "@iconify-json/twemoji": "^1.1.5",
+    "@types/node": "^18.11.0",
     "@unocss/preset-icons": "^0.45.29",
     "@unocss/preset-typography": "^0.45.29",
+    "@unocss/transformer-directives": "^0.45.29",
+    "fs-extra": "^10.1.0",
+    "markdown-it": "^13.0.1",
+    "prettier": "^2.7.1",
     "typescript": "^4.8.2",
     "unocss": "^0.45.29",
     "vite": "^3.0.9",
     "vite-plugin-solid": "^2.3.0"
   },
   "dependencies": {
+    "@solidjs/router": "^0.5.0",
     "@unocss/reset": "^0.45.29",
-    "solid-js": "^1.5.1"
+    "lodash": "^4.17.21",
+    "solid-js": "^1.5.3",
+    "yargs-parser": "^21.1.1"
   }
 }

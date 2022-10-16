@@ -1,8 +1,16 @@
 /* @refresh reload */
 import { render } from 'solid-js/web';
+import { Router } from '@solidjs/router';
 
 import 'uno.css';
 import './index.css';
-import App from './App';
+import Routers from './router';
 
-render(() => <App />, document.getElementById('root') as HTMLElement);
+render(
+  () => (
+    <Router>
+      <Routers />
+    </Router>
+  ),
+  document.getElementById('root') as HTMLElement
+);

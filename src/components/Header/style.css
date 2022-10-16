@@ -1,0 +1,10 @@
+.header1 {
+  @apply text-3xl font-black;
+}
+.header2 {
+  @apply text-2xl font-bold;
+}
+
+.header3 {
+  @apply text-xl font-semibold;
+}

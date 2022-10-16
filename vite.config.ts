@@ -2,7 +2,13 @@ import { defineConfig } from 'vite';
 import solidPlugin from 'vite-plugin-solid';
 import Unocss from 'unocss/vite';
 import presetIcons from '@unocss/preset-icons';
+import path from 'path';
 export default defineConfig({
+  resolve: {
+    alias: {
+      '@/posts': path.resolve(__dirname, 'src/posts'),
+    },
+  },
   plugins: [
     solidPlugin(),
     Unocss({
