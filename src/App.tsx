@@ -99,14 +99,15 @@ const App: Component = () => {
                 </div>
               </div>
             </a>
-            <a class="project-item" href="#">
+            <a
+              class="project-item"
+              href="https://rollup.playground.felixwliu.cn/"
+            >
               <div class="h-full flex-center">
                 <div class="flex-1">
-                  <div class="text-dark dark:text-white">
-                    native-video-player
-                  </div>
+                  <div class="text-dark dark:text-white">REPL | Rollup</div>
                   <div class="op-50 font-normal text-sm text-dark dark:text-white">
-                    WIP: use election to play videos
+                    use Rollup in browser
                   </div>
                 </div>
                 <div class="ml-4 text-4xl op-80">
